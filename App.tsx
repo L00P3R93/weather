@@ -70,7 +70,7 @@ const App: React.FC = () => {
 										<Text style={[styles.largeText, styles.textStyle]}>{`${Math.round(temperature)}°`}</Text>
 									</View>
 								)}
-								<SearchInput onSubmit={handleUpdateLocation} />
+								<SearchInput placeholder="Search any city" onSubmit={handleUpdateLocation} />
 							</View>
 						)}
 					</View>
